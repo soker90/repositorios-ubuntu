@@ -10,6 +10,6 @@ Homepage: https://soker90.github.io/betcon
 
 Package: betcon
 Architecture: all
-Depends: ${shlibs:Depends}, ${misc:Depends},  python3 (>=3.0), python3-pyqt5 (>=5.2.1)
+Depends: python3-pyexcel-ods (>=0.4.0), ${shlibs:Depends}, ${misc:Depends}
 Description: Gestión de apuestas deportivas
  Betcon, es una aplicación para almacenar los datos de apuestas deportivas y mostras estadisticas en base a ellos. 
