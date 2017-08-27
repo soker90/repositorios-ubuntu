@@ -1,0 +1,21 @@
+Source: lml
+Section: python
+Priority: optional
+Maintainer: Eduardo Parra Mazuecos <eduparra90@gmail.com>
+Build-Depends: debhelper (>=9),dh-python,python3-all,python3-setuptools
+Standards-Version: 3.9.6
+Homepage: https://pypi.python.org/pypi/lml
+X-Python3-Version: >= 3.2
+#Vcs-Git: git://anonscm.debian.org/collab-maint/lml.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/lml.git
+
+Package: python3-lml
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Load me later. A lazy loading plugin management system.
+ lml seamlessly finds the lml based plugins from your current python environment but loads your plugins on demand. It is designed to support plugins that have external dependencies, especially bulky and/or memory hungry ones. lml provides the plugin management system only and the plugin interface is on your shoulder.
+ lml enabled applications helps your customers [1] in two ways:
+ Your customers could cherry-pick the plugins from pypi per python environment. They could remove a plugin using pip uninstall command.
+ Only the plugins used at runtime gets loaded into computer memory.
+ When you would use lml to refactor your existing code, it aims to flatten the complexity and to shrink the size of your bulky python library by distributing the similar functionalities across its plugins. However, you as the developer need to do the code refactoring by yourself and lml would lend you a hand.
+ .
