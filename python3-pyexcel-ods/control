@@ -1,0 +1,17 @@
+Source: pyexcel-ods
+Section: python
+Priority: optional
+Maintainer: Eduardo Parra Mazuecos <eduparra90@gmail.com>
+Build-Depends: debhelper (>=9),dh-python,python3-all,python3-setuptools,  python3-pyexcel-io
+Standards-Version: 3.9.6
+Homepage: https://pypi.python.org/pypi/pyexcel-ods
+X-Python3-Version: >= 3.2
+#Vcs-Git: git://anonscm.debian.org/collab-maint/pyexcel-ods.git
+#Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/pyexcel-ods.git
+
+Package: python3-pyexcel-ods
+Architecture: all
+Depends: python3-pyexcel-io (>= 0.4.4), ${python3:Depends}, ${misc:Depends}
+Description: A wrapper library to read, manipulate and write data in ods format
+ A wrapper library to read, manipulate and write data in ods format
+ .
