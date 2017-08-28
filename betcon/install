@@ -35,6 +35,7 @@ resources/sports/16.png usr/share/betcon/resources/sports/
 resources/sports/17.png usr/share/betcon/resources/sports/
 resources/sports/18.png usr/share/betcon/resources/sports/
 resources/sports/19.png usr/share/betcon/resources/sports/
+resources/sports/20.png usr/share/betcon/resources/sports/
 src/add_money.py usr/share/betcon/src/
 src/banks.py usr/share/betcon/src/
 src/Betcon usr/share/betcon/src/
@@ -66,6 +67,7 @@ src/new_sport.py usr/share/betcon/src/
 src/new_tipster.py usr/share/betcon/src/
 src/new_tipster_month.py usr/share/betcon/src/
 src/regions.py usr/share/betcon/src/
+src/settings.py usr/share/betcon/src/
 src/sports.py usr/share/betcon/src/
 src/stats.py usr/share/betcon/src/
 src/stats_bookie.py usr/share/betcon/src/
@@ -102,6 +104,7 @@ ui/new_sport.ui usr/share/betcon/ui/
 ui/new_tipster.ui usr/share/betcon/ui/
 ui/new_tipster_month.ui usr/share/betcon/ui/
 ui/regions.ui usr/share/betcon/ui/
+ui/settings.ui usr/share/betcon/ui/
 ui/sports.ui usr/share/betcon/ui/
 ui/stats.ui usr/share/betcon/ui/
 ui/stats_bookie.ui usr/share/betcon/ui/
