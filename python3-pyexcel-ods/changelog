@@ -1,5 +1,5 @@
-pyexcel-ods (0.4.1-0ubuntu2) xenial; urgency=medium
+pyexcel-ods (0.5.2-0ubuntu1) xenial; urgency=low
 
   * Initial release
 
- -- Eduardo Parra Mazuecos <eduparra90@gmail.com>  Sun, 27 Aug 2017 20:07:03 +0200
+ -- Eduardo Parra Mazuecos <eduparra90@gmail.com>  Sat, 10 Feb 2018 22:01:03 +0100

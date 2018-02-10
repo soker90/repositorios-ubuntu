@@ -1,6 +1,18 @@
-betcon (1.5.2-0ubuntu1) xenial; urgency=low
+betcon (1.7.1-1) xenial; urgency=low
 
-  * Fixes for combinada
-  * Added E-Sports
+  * Round numbers of the stats
+   * Language support
+   * Added Country to Bookies
+   * Coin added to the money fields
+   * Deleted seconds from dates of the bets
+   * Added statistics of the year and the day
+   * Show/hide country of the bookies
+   * Added option to change images of the bookies
+   * Added show picks by months
+   * Added donate button
+   * Fixes
+   * Interfaz improvements
 
- -- Eduardo Parra Mazuecos <eduparra90@gmail.com>  Mon, 28 Aug 2017 12:01:17 +0200
+
+
+ -- Eduardo Parra Mazuecos <eduparra90@gmail.com>  Sat, 10 Feb 2018 21:04:02 +0100

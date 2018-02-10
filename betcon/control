@@ -4,12 +4,12 @@ Priority: optional
 Maintainer: Eduardo Parra Mazuecos <eduparra90@gmail.com>
 Build-Depends: debhelper (>=9)
 Standards-Version: 3.9.6
-Homepage: https://soker90.github.io/betcon
+Homepage: http://betcon.eduardoparra.es
 #Vcs-Git: git://anonscm.debian.org/collab-maint/betcon.git
 #Vcs-Browser: https://anonscm.debian.org/cgit/collab-maint/betcon.git
 
 Package: betcon
 Architecture: all
-Depends: python3-pyexcel-ods (>=0.4.0), ${shlibs:Depends}, ${misc:Depends}
+Depends: python-pyqt5, python3-pyexcel-ods (>=0.4.0), sqlite3, python3-yaml, python3-pil, ${shlibs:Depends}, ${misc:Depends}
 Description: Gestión de apuestas deportivas
  Betcon, es una aplicación para almacenar los datos de apuestas deportivas y mostras estadisticas en base a ellos. 

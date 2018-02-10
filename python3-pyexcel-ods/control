@@ -11,7 +11,7 @@ X-Python3-Version: >= 3.2
 
 Package: python3-pyexcel-ods
 Architecture: all
-Depends: python3-odfpy, python3-pyexcel-io (>= 0.4.4)
+Depends: python3-odfpy, python3-pyexcel-io (>= 0.5.6)
 Description: A wrapper library to read, manipulate and write data in ods format
  A wrapper library to read, manipulate and write data in ods format
  .
