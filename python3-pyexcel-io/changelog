@@ -1,5 +1,5 @@
-pyexcel-io (0.5.6-0ubuntu1) xenial; urgency=low
+pyexcel-io (0.5.6-0ubuntu2) xenial; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release
 
  -- Eduardo Parra Mazuecos <eduparra90@gmail.com>  Sat, 10 Feb 2018 21:52:10 +0100
